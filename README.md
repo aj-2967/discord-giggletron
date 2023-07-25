@@ -1,4 +1,4 @@
-# Discord Bot Readme
+# Discord Bot - Giggletron
 
 ## Overview
 
