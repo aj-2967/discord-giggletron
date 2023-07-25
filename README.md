@@ -1,4 +1,4 @@
-# Discord Bot Sample Readme
+# Discord Bot Readme
 
 ## Overview
 
