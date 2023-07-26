@@ -37,12 +37,12 @@ module.exports = {
         await interaction.deferReply();
         const meme = await fetchAndShowMeme();
         
-        const exampleEmbed = new EmbedBuilder()
+        const embed = new EmbedBuilder()
             .setColor(0xFCE029)
             .setTitle(meme.title)
             .setURL(meme.postLink)
             .setImage(meme.url)
         
-        await interaction.editReply({ embeds: [exampleEmbed] });
+        await interaction.editReply({ embeds: [embed] });
 	},
 };
